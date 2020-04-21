@@ -1,0 +1,8 @@
+print('What\'s your name?')
+name = input().strip().upper()
+#print('Hello '+ name.upper() +'!')
+#print('Hello {}!'.format(name.upper()))
+#print('Hello ' + input().upper() + '!')
+#print('Hello {}!'.format(input().upper()))
+print(f'Hello {name}!')
+print(f'Lengh your name is {len(name)}')
